@@ -1,0 +1,57 @@
+/*#00A3D9 color para guia hija y consignee*/
+/*#00A3D9 color para warehouse y shipper*/
+
+.corloError{
+    color: #d43f3a;
+    background-color:  #d43f3a;
+    font-size: 15px !important;
+}
+.ibox-content{
+    /*background: #FFFFFF -webkit-gradient(linear, left top, left bottom, from(#B0D9C4), to(#FFFFFF)) no-repeat;*/
+    background-color: mintcream;
+    /*background-color: rgba(0,163,217, 0.2);*/
+}
+/*color para utilizar en el view*/
+.list-group-item{
+   /*background-color:#d9edf7;*/
+}
+.btnForm{
+    align-content: flex-start;
+}
+
+.guardar{
+    padding-top: 50px;
+}
+
+#mvcMain {
+  display: none;
+}
+
+#mvcIcon {
+  display: block;
+}
+
+.shfDevelopmentBar {
+  background-color: rgb(61,35,0);
+  position: fixed;
+  right: 0px;
+  color: #ffffff;
+  /*width: 500px;*/
+  z-index: 2147483647;
+  padding: 3px 3px 3px 5px;
+  border-radius: 0px 0px 0px 5px;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 2px rgba(20, 20, 20, 1);
+  top: 0px;
+}
+
+.mvcPointer {
+  cursor: pointer;
+}
+
+#campoObligatorio{
+    color: red;
+}
+#astrisco{
+    color: red;
+}
